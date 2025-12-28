@@ -125,7 +125,7 @@ Key commands:
 Memory management is a critical responsibility of any modern runtime environment. In the .NET ecosystem, memory is managed primarily by the Common Language Runtime (CLR). The CLR abstracts low-level memory concerns away from developers, allowing them to focus on application logic rather than manual memory allocation and deallocation. Analyzing .NET dumps often involves understanding these mechanisms, which is crucial for diagnosing memory leaks, performance issues, and crashes.
 
 #### Memory Architecture in .NET
-![img](/img/in-post/post-dotnet-dumps/gcposter05.png)
+![.NET Memory Management Diagram]({{ site.baseurl }}/img/in-post/post-dotnet-dumps/gcposter05.png)
 The image illustrate the Memory management architecture of .NET application. We will take a look of individual components of this.
 
 .NET distinguishes between two types of memory:
